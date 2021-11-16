@@ -21,7 +21,8 @@ app.use(express.static("public"));
 // Connect to the database - will need to update this for Heroku
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 
 // routes
