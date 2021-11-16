@@ -6,7 +6,8 @@ const mongoose = require("mongoose");
 const compression = require("compression");
 
 // port to listen on
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 
 const app = express();
 
