@@ -1,8 +1,3 @@
-// indicate that the code should be excluded in "strict mode"
-"use strict";
-
-// set up the mongoose database 
-// pretty much done
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
