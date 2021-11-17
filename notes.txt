@@ -1,9 +1,0 @@
-Goal: Adding functionality to existing budget tracker
-
-Adding offline access and functionality to app
-Commit early and often
-Heroku and mongodb
-Submitting Github repo and heroku deployment
-
-
-As of now it loads and works fine online
